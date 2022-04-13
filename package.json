@@ -4,6 +4,11 @@
   "author": "Dominic Marx <dominic.marx@axians.de>",
   "main": "src/index.ts",
   "type": "module",
+  "scripts": {
+    "dev": "framework dev",
+    "build": "framework build",
+    "start": "framework start"
+  },
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
@@ -14,6 +19,6 @@
   },
   "dependencies": {
     "@fontsource/montserrat": "^4.5.7",
-    "@mrx-framework/core": "^0.0.7"
+    "@mrx-framework/core": "^0.0.8"
   }
 }
