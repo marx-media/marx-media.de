@@ -1,0 +1,19 @@
+{
+  "name": "marx-media.net",
+  "version": "1.0.0",
+  "author": "Dominic Marx <dominic.marx@axians.de>",
+  "main": "src/index.ts",
+  "type": "module",
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "react",
+        "react-dom"
+      ]
+    }
+  },
+  "dependencies": {
+    "@fontsource/montserrat": "^4.5.7",
+    "@mrx-framework/core": "^0.0.7"
+  }
+}

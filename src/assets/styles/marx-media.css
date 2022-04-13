@@ -1,0 +1,13 @@
+@import '@fontsource/montserrat/variable.css';
+
+:root {
+  --color-primary: #cfb06e;
+}
+
+.font-montserrat {
+  font-family: 'MontserratVariable';
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
